@@ -1,0 +1,52 @@
+---
+import Container from "./Container.astro"
+
+---
+
+<div class="relative" id="home">
+    <div aria-hidden="true" class="absolute inset-0 grid grid-cols-2 -space-x-52 opacity-40 dark:opacity-20">
+        <div class="blur-[106px] h-56 bg-gradient-to-br from-primary to-purple-400 dark:from-blue-700"></div>
+        <div class="blur-[106px] h-32 bg-gradient-to-r from-cyan-400 to-sky-300 dark:to-indigo-600"></div>
+    </div>
+    <Container>
+        <div class="relative pt-36 ml-auto">
+            <div class="lg:w-3/4 text-center mx-auto">
+                <h1 class="text-gray-900 dark:text-white font-bold text-5xl md:text-6xl xl:text-7xl">Ethereal Technological Research & Exploration </h1>
+                <p class="mt-8 text-gray-700 dark:text-gray-300">An open-source research team delving into cutting-edge technologies, exploring ethereal domains, and fostering collaboration. Join us on a journey of discovery and innovation.</p>
+                <div class="mt-16 flex flex-wrap justify-center gap-y-4 gap-x-6">
+                    <a
+                      href="https://github.com/etrexlabs"
+                      class="relative flex h-11 w-full items-center justify-center px-6 before:absolute before:inset-0 before:rounded-full before:bg-primary before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 sm:w-max"
+                    >
+                      <span class="relative text-base font-semibold text-white"
+                        >Get started</span
+                      >
+                    </a>
+                    <a
+                      href="#solutions"
+                      class="relative flex h-11 w-full items-center justify-center px-6 before:absolute before:inset-0 before:rounded-full before:border before:border-transparent before:bg-primary/10 before:bg-gradient-to-b before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 dark:before:border-gray-700 dark:before:bg-gray-800 sm:w-max"
+                    >
+                      <span
+                        class="relative text-base font-semibold text-primary dark:text-white"
+                        >Learn more</span
+                      >
+                    </a>
+                </div>
+                <div class="hidden py-8 mt-16 border-y border-gray-100 dark:border-gray-800 sm:flex justify-between gap-3">
+                    <div class="text-left">
+                        <h6 class="text-lg font-semibold text-gray-700 dark:text-white">Innovative Exploration</h6>
+                        <p class="mt-2 text-gray-500">Our open-source research team is dedicated to pushing the boundaries of knowledge and fostering collaboration for innovation.</p>
+                    </div>
+                    <div class="text-left">
+                        <h6 class="text-lg font-semibold text-gray-700 dark:text-white">Transparent Collaboration</h6>
+                        <p class="mt-2 text-gray-500">At ETREX Labs, we believe in openness and transparency. Join us on a journey of rapid progress, where collaboration and sharing of insights are at the core of our research efforts.</p>
+                    </div>
+                    <div class="text-left">
+                        <h6 class="text-lg font-semibold text-gray-700 dark:text-white">Embraced by Enthusiasts</h6>
+                        <p class="mt-2 text-gray-500">Our open community fosters a deep passion for exploration, making us the most loved destination for innovative discoveries.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </Container>
+</div>

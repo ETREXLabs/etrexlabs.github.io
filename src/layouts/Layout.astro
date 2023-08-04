@@ -1,0 +1,55 @@
+---
+import AppFooter from "../components/AppFooter.astro";
+import AppHeader from "../components/AppHeader.astro"
+---
+
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta name="language" content="English">
+		<meta name="revisit-after" content="2 days">
+		
+		<title>ETREX Labs - Exploring the Ethereal</title>
+		<meta name="description" content="ETREX Labs is an open-source research team dedicated to exploring cutting-edge technologies and pushing the boundaries of knowledge in ethereal domains. Join us in this journey of discovery and make a lasting impact on the future of technology.">
+		<meta name="keywords" content="ETREX Labs, research, open-source, technology, ethereal domains, blockchain, crypto, ethereum, security, software, engineering">
+		<meta name="robots" content="index, follow">
+		<meta name="author" content="LXTREV">
+
+		<meta property="og:title" content="ETREX Labs - Exploring the Ethereal">
+		<meta property="og:description" content="ETREX Labs is an open-source research team dedicated to exploring cutting-edge technologies and pushing the boundaries of knowledge in ethereal domains. Join us in this journey of discovery and make a lasting impact on the future of technology.">
+		<meta property="og:url" content="https://etrexlabs.github.io">
+		<meta property="og:type" content="website">
+		<meta property="og:site_name" content="ETREX Labs">
+		<meta property="og:image" content="">
+
+		<meta name="twitter:card" content="summary_large_image">
+		<meta name="twitter:title" content="ETREX Labs - Exploring the Ethereal">
+		<meta name="twitter:description" content="ETREX Labs is an open-source research team dedicated to exploring cutting-edge technologies and pushing the boundaries of knowledge in ethereal domains. Join us in this journey of discovery and make a lasting impact on the future of technology.">
+		<meta name="twitter:image" content="">
+		<meta name="twitter:url" content="https://etrexlabs.github.io">
+
+		<link rel="canonical" href="https://etrexlabs.github.io">
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@400;500;600;700&display=swap" rel="stylesheet">
+	</head>
+	<body class="bg-white dark:bg-gray-900">
+		<AppHeader/>
+		<slot />
+		<AppFooter/>
+	</body>
+</html>
+<style>
+	html {
+		font-family: Urbanist, sans-serif;
+		scroll-behavior: smooth;
+	}
+
+	body {
+		margin: 0;
+	}
+</style>
